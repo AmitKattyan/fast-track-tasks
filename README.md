@@ -46,7 +46,7 @@ Install Terraform CLI.
 Configure AWS CLI with credentials for a user with appropriate permissions.
 Steps:
 
-Copy the code provided in the zip file
+Clone this repo
 Navigate to the root directory.
 Initialize Terraform:
 terraform init
