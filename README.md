@@ -9,7 +9,7 @@ Application Load Balancer (ALB): For distributing incoming traffic across multip
 
 Auto Scaling Group (ASG): Automatically scales the EC2 instances based on demand.
 
-RDS (PostgreSQL): A multi-AZ database instance for high availability.
+RDS (mySQL): A multi-AZ database instance for high availability.
 
 S3 Bucket: For storing static assets with versioning and lifecycle policies.
 
