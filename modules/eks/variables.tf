@@ -1,0 +1,15 @@
+variable "vpc_cidr" { default = "10.0.0.0/16" }
+variable "subnet_1_cidr" { default = "10.0.1.0/24" }
+variable "subnet_2_cidr" { default = "10.0.2.0/24" }
+variable "cluster_name" { default = "eks-cluster" }
+variable "node_group_name" { default = "eks-node-group" }
+variable "node_role_name" { default = "eks-node-role" }
+variable "cluster_role_name" { default = "eks-cluster-role" }
+variable "vpc_name" { default = "eks-vpc" }
+variable "igw_name" { default = "eks-igw" }
+variable "subnet_1_name" { default = "eks-public-subnet-1" }
+variable "subnet_2_name" { default = "eks-public-subnet-2" }
+variable "instance_type" { default = "t3.medium" }
+variable "node_group_min_size" { default = 2 }
+variable "node_group_max_size" { default = 5 }
+variable "node_group_desired_size" { default = 3 }
