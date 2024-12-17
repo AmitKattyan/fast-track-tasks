@@ -1,4 +1,4 @@
-# fast-track-tasks
+
 AWS Scalable Web Application Infrastructure
 
 This repository contains an Infrastructure as Code (IaC) solution using Terraform to deploy a scalable, highly available web application infrastructure on AWS. The setup includes:
